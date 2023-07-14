@@ -69,11 +69,11 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2            &kp F3  &kp F4             &kp F5              &kp F6            &tog 1                                                             &trans  &kp F7        &kp F8        &kp F9    &kp F10          &kp F11  &kp F12
- &trans  &trans    &kp LEFT_BRACE  &trans    &kp RIGHT_BRACE              &trans            &trans                                                             &trans  &trans      &kp HOME        &kp UP    &kp END        &kp MINUS   &trans
- &trans  &trans          &kp LPAR  &trans           &kp RPAR  &macro_right_arrow            &trans  &trans  &trans   &none   &none  &trans     &trans          &trans  &trans      &kp LEFT      &kp DOWN  &kp RIGHT         &kp PLUS   &trans
- &trans  &trans  &kp LEFT_BRACKET  &trans  &kp RIGHT_BRACKET              &trans             &none   &none  &trans   &none   &none  &trans      &none           &none  &trans     &kp EQUAL        &kp LT     &kp GT        &kp MINUS   &trans
- &trans  &trans            &trans  &trans             &trans                                &trans  &trans  &trans                  &trans  &kp EQUAL  &kp UNDERSCORE          &kp C_VOL_DN  &kp C_VOL_UP     &trans  &kp PRINTSCREEN   &trans
+ &kp F1  &kp F2            &kp F3            &kp F4             &kp F5              &kp F6            &tog 1                                                             &trans  &kp F7        &kp F8        &kp F9    &kp F10          &kp F11  &kp F12
+ &trans  &trans    &kp LEFT_BRACE    &kp LEFT_BRACE    &kp RIGHT_BRACE              &trans            &trans                                                             &trans  &trans      &kp HOME        &kp UP    &kp END        &kp MINUS   &trans
+ &trans  &trans          &kp LPAR          &kp LPAR           &kp RPAR  &macro_right_arrow            &trans  &trans  &trans   &none   &none  &trans     &trans          &trans  &trans      &kp LEFT      &kp DOWN  &kp RIGHT         &kp PLUS   &trans
+ &trans  &trans  &kp LEFT_BRACKET  &kp LEFT_BRACKET  &kp RIGHT_BRACKET              &trans             &none   &none  &trans   &none   &none  &trans      &none           &none  &trans     &kp EQUAL        &kp LT     &kp GT        &kp MINUS   &trans
+ &trans  &trans            &trans            &trans             &trans                                &trans  &trans  &trans                  &trans  &kp EQUAL  &kp UNDERSCORE          &kp C_VOL_DN  &kp C_VOL_UP     &trans  &kp PRINTSCREEN   &trans
             >;
         };
 
