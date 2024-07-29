@@ -21,6 +21,7 @@
 / {
   behaviors {
     #include "macros.dtsi"
+    #include "version.dtsi"
 
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
@@ -43,7 +44,7 @@
   &kp CAPS     &kp Q      &kp W      &kp E     &kp R   &kp T            &kp EQUAL                                                             &kp MINUS   &kp Y     &kp U      &kp I     &kp O     &kp P   &kp BSLH
    &kp ESC     &kp A      &kp S      &kp D     &kp F   &kp G            &kp EQUAL  &kp LCTRL  &kp LALT   &none   &none   &kp LGUI    &kp DEL  &kp MINUS   &kp H     &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
    &kp TAB     &kp Z      &kp X      &kp C     &kp V   &kp B                &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none      &none   &kp N     &kp M  &kp COMMA   &kp DOT  &kp FSLH   &kp BSPC
-     &mo 3  &kp LEFT  &kp RIGHT  &kp GRAVE  &kp BSLH                    &kp LSHFT      &mo 3   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp LBKT   &kp RBKT  &kp DOWN    &kp UP      &mo 3
+ &kp LC(B)  &kp LEFT  &kp RIGHT  &kp GRAVE  &kp BSLH                    &kp LSHFT      &mo 3   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp LBKT   &kp RBKT  &kp DOWN    &kp UP      &mo 3
             >;
         };
 
@@ -72,7 +73,7 @@
  &kp F1     &kp F2            &kp F3     &kp F4             &kp F5                  &kp F6            &tog 1                                                          &trans    &kp F7        &kp F8        &kp F9    &kp F10          &kp F11  &kp F12
  &trans  &kp LC(Q)    &kp LEFT_BRACE  &kp LC(E)    &kp RIGHT_BRACE  &macro_fat_right_arrow            &trans                                                          &trans  &kp HOME     &kp LC(U)     &kp LC(I)    &kp END           &trans   &trans
  &trans  &kp LC(A)          &kp LPAR  &kp LC(D)           &kp RPAR      &macro_right_arrow            &trans  &trans  &trans   &none   &none  &trans  &trans          &trans  &kp LEFT      &kp DOWN        &kp UP  &kp RIGHT           &trans   &trans
- &trans  &kp LC(Z)  &kp LEFT_BRACKET  &kp LC(C)  &kp RIGHT_BRACKET                  &trans             &none   &none  &trans   &none   &none  &trans   &none           &none     &none     &kp EQUAL        &kp LT     &kp GT           &trans   &trans
+ &trans  &kp LC(Z)  &kp LEFT_BRACKET  &kp LC(C)  &kp RIGHT_BRACKET               &kp LC(B)             &none   &none  &trans   &none   &none  &trans   &none           &none     &none     &kp EQUAL        &kp LT     &kp GT           &trans   &trans
  &trans     &trans            &trans     &trans             &trans                                    &trans  &trans  &trans                  &trans  &trans  &kp UNDERSCORE            &kp C_VOL_DN  &kp C_VOL_UP     &trans  &kp PRINTSCREEN   &trans
             >;
         };
